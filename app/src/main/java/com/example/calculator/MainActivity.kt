@@ -8,12 +8,12 @@ import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     //, View.OnClickListener
-    val operations: List<String> = listOf("+","-","*","/","√","^","%");
+    //val operations: List<String> = listOf("+","-","*","/","√","^","%");
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         val operations: List<String> = listOf("+","-","*","/","√","^","%");
-
+        val entries: MutableList<String> = mutableListOf()
     }
 
     fun SquareRoot() {
